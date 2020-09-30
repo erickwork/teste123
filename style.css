@@ -1,0 +1,575 @@
+body{
+        /*cursor: url("../images/cursor.png"), default; */
+        margin: 0;     
+        display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Código referente a navbar do site */
+nav a{
+    text-decoration: none;
+    font-family: "Graphik-Medium, Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(17, 17, 17, 0.7);
+    font-size: 18px;
+    padding: 0;
+}
+
+a:hover{
+    color: rgb(138, 5, 190);
+}
+
+nav a:nth-child(2){
+    color: rgb(138, 5, 190);
+}
+
+#div-login a:nth-child(1){
+    color: rgb(138, 5, 190);
+}
+
+#login-nav{
+    margin-left: 220px;
+}
+
+nav{
+    width: 1423px;
+    height: 80px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 50px red;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+    padding: 0;
+    position: relative;
+}
+
+#svg-login{
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(138, 5, 190);
+    margin: 0px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+
+#button-nav{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 6.25rem;
+    background: rgb(138, 5, 190);
+    color: rgb(255, 255, 255);
+    --rippleLayerColor: rgba(255,255,255,0.2);
+    height: 3rem;
+    display: inline-flex;
+    cursor: pointer;
+    outline: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: middle;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    transform: translate3d(0px, 0px, 0px);
+}
+/* Fim do código da navbar do site */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* Inicio do corpo do site */
+
+#financeira{
+    width: 1423px;
+    height: 946px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px;
+    position: relative; */
+}
+
+#financeira-div{
+    width: 1200px;
+    height: 750px;
+    background-image: url(image/financeira.webp);
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+#financeira-pt1{
+    width: 56%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#financeira-pt1 h1{
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0 150px 16px;
+}
+
+#financeira-pt1 h2{
+    font-size: 24px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0 0 32px;
+    margin: 0 150px 16px;
+}
+
+#button-financeira{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 6.25rem;
+    background: rgb(138, 5, 190);
+    color: rgb(255, 255, 255);
+    --rippleLayerColor: rgba(255,255,255,0.2);
+    height: 3rem;
+    display: inline-flex;
+    cursor: pointer;
+    outline: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: middle;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    font-size: 18px;
+    transform: translate3d(0px, 0px, 0px);
+    margin: 0 150px 16px;
+}
+
+#financeira-pt2{
+    width: 44%;
+    height: 800px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* ======================================================== */
+
+#pix{
+    width: 1423px;
+    height: 757px;
+    background-image: url(image/pix.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pix-div{
+    width: 1100px;
+    height: 360px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+#pix-div h1{
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#pix-div a{
+    font-size: 18px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+svg{
+    color: white;
+}
+
+/* ======================================================== */
+
+#conta{
+    width: 1423px;
+    height: 757px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+
+}
+
+#conta-pt1{
+    width: 40%;
+    height: 80%;
+    padding-top: 300px;
+    /* background-color: aqua; */
+}
+
+#conta-pt1 h1:nth-child(1){
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(138, 5, 190);
+    padding: 0;
+    margin: 0;
+}
+
+#conta-pt1 h1:nth-child(2){
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:black;
+    padding: 0;
+    margin: 0;
+}
+
+#conta-pt1 a{
+    font-size: 18px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(138, 5, 190);
+    padding: 0;
+    margin: 0;
+}
+
+
+#conta-pt2{
+    width: 720px;
+    height: 80%;
+    display: flex;
+    align-items: initial;
+}
+
+/* ======================================================== */
+
+#roxinho{
+    width: 1423px;
+    height: 672px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#roxinho-pt1{
+    width: 35%;
+    height: 75%;
+    padding-top: 100px;
+    padding-left: 120px;
+    /* background-color: aqua; */
+}
+
+#roxinho-pt1 h1{
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(138, 5, 190);
+    padding: 0;
+    margin: 0;
+}
+
+#roxinho-pt1 a{
+    font-size: 18px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(138, 5, 190);
+    padding: 0;
+    margin: 0;
+}
+
+#roxinho-pt1 p{
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+
+#roxinho-pt2{
+    width: 720px;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 180px;
+}
+
+/* ======================================================== */
+
+#rewards{
+    width: 1423px;
+    height: 757px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 0, 130);
+
+}
+
+#rewards-pt1{
+    width: 55%;
+    height: 80%;
+    padding-top: 280px;
+    padding-left: 120px;
+    /* background-color: aqua; */
+}
+
+#rewards-pt1 h1{
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(192, 147, 251);
+    padding: 0;
+    margin: 0;
+}
+
+#rewards-pt1 a{
+    font-size: 18px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(138, 5, 190);
+    padding: 0;
+    margin: 0;
+}
+
+#rewards-pt1 h2{
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+#rewards-pt2{
+    width: 720px;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 180px;
+}
+
+/* ======================================================== */
+
+#dinheiro{
+    width: 1423px;
+    height: 757px;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(image/dinheiro.webp);
+    background-size: cover;
+
+}
+
+#dinheiro-pt1{
+    width: 55%;
+    height: 80%;
+    padding-top: 280px;
+    padding-left: 120px;
+    /* background-color: aqua; */
+}
+
+#dinheiro-pt1 h1{
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 0 0 32px;
+    margin: 0;
+}
+
+#dinheiro-pt1 a{
+    font-size: 18px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* ======================================================== */
+
+
+#comunidade{
+    width: 1423px;
+    height: 757px;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(image/comunidade.webp);
+    background-size: cover;
+
+}
+
+#comunidade-pt1{
+    width: 55%;
+    height: 80%;
+    padding-top: 280px;
+    padding-left: 120px;
+    /* background-color: aqua; */
+}
+
+#comunidade-pt1 h1{
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 0 0 32px;
+    margin: 0;
+}
+
+#comunidade-pt1 a{
+    font-size: 18px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#comunidade-pt1 p{
+    letter-spacing: -0.03em;
+    font-size: 48px;
+    line-height: 1.16;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0 0 32px;
+}
+
+
+/* ======================================================== */
+
+#blog{
+    width: 1423px;
+    height: 757px;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(image/blog.webp);
+    background-size: cover;
+
+}
+
+#blog-pt1{
+    width: 55%;
+    height: 80%;
+    padding-top: 280px;
+    padding-left: 120px;
+    /* background-color: aqua; */
+}
+
+#blog-pt1 h1{
+    font-size: 48px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 0 0 32px;
+    margin: 0;
+}
+
+#blog-pt1 a{
+    font-size: 18px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* ======================================================== */
+footer{
+    background-color: #000330;
+    padding: 0;
+    margin: 0;
+}
+
+footer a{
+    color: white;
+    margin: 0 0 8px;
+    font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer p{
+    color: white;
+    margin: 0 0 32px;
+    font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#footer-pt1{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 56px;
+}
+
+.classe1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 18px;
+    color: white;
+}
+
+#footer-pt2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 56px;
+    border-bottom: 1px solid rgb(25, 25, 25);
+}
+
+#pt1-c4{
+    width: 327px;
+}
+
+#pt3-c1{
+    display: flex;
+}
+
+#pt3-c1{
+    width: 711px;
+    height: 100%;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#pt3-c1 p{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#pt3-c2{
+    width: 711px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#footer-pt3{
+    width:1423px;
+    height: 209px;
+    display: flex;
+    border-bottom: 1px solid rgb(25, 25, 25);
+}
+
+#pt3-c2 img{
+    margin-left: 20px;
+}
+
+#pt3-c2 img:nth-child(5){
+    margin-right: 100px;
+}
+
+input{
+    display: flex;
+    flex-direction: row;
+}
+
+#pt4-c2{
+
+    width: 711px;
+    height: 100%;
+     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#ingles{
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+#portugues{
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
